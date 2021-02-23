@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <title>Test de personalidad</title>
+            <link rel="stylesheet" href="estilo.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="codigo.js"></script>
+        </head>
+        <body onload="inicio()";>
+            <div class="titulo">
+                <h1>Test de personalidad</h1>
+            </div>
+            <div class="wrap">
+                <form name="formulario" class="formulario">
+                    <div class="checkbox">
+                        <table class="Cualidades">
+                            <tr>
+                                <td colspan="2">
+                                    <h2 class="Fortalezas">Fortalezas</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Aventurero" id="Aventurero">
+                                    <label for="Aventurero">Aventurero</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Adaptable" id="Adaptable">
+                                    <label for="Adaptable">Adaptable</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Animado" id="Animado">
+                                    <label for="Animado">Animado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Analitico" id="Analitico">
+                                    <label for="Analitico">Analítico</label>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Persistente" id="Persistente">
+                                    <label for="Persistente">Persistente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Jugueton" id="Jugueton">
+                                    <label for="Jugueton">Juguetón</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Persuasivo" id="Persuasivo">
+                                    <label for="Persuasivo">Persuasivo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Pasivo" id="Pasivo">
+                                    <label for="Pasivo">Pasivo</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Sumiso" id="Sumiso">
+                                    <label for="Sumiso">Sumiso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Sacrificado" id="Sacrificado">
+                                    <label for="Sacrificado">Sacrificado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Amigable" id="Amigable">
+                                    <label for="Amigable">Amigable</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Resuelto" id="Resuelto">
+                                    <label for="Resuelto">Resuelto</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Considerado" id="Considerado">
+                                    <label for="Considerado">Considerado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Controlado" id="Controlado">
+                                    <label for="Controlado">Controlado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Competitivo" id="Competitivo">
+                                    <label for="Competitivo">Competitivo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Convincente" id="Convincente">
+                                    <label for="Convincente">Convincente</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Alentador" id="Alentador">
+                                    <label for="Alentador">Alentador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Reservado" id="Reservado">
+                                    <label for="Reservado">Reservado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Respetuoso" id="Respetuoso">
+                                    <label for="Respetuoso">Respetuoso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Recursivo" id="Recursivo">
+                                    <label for="Recursivo">Recursivo</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><hr size="5px" color="black" /></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Satisfecho" id="Satisfecho">
+                                    <label for="Satisfecho">Satisfecho</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Sensible" id="Sensible">
+                                    <label for="Sensible">Sensible</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Confiado" id="Confiado">
+                                    <label for="Confiado">Confiado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Sensato" id="Sensato">
+                                    <label for="Sensato">Sensato</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Planificador" id="Planificador">
+                                    <label for="Planificador">Planificador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Paciente" id="Paciente">
+                                    <label for="Paciente">Paciente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Positivo" id="Positivo">
+                                    <label for="Positivo">Positivo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Promotor" id="Promotor">
+                                    <label for="Promotor">Promotor</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Seguro" id="Seguro">
+                                    <label for="Seguro">Seguro</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Espontaneo" id="Espontaneo">
+                                    <label for="Espontaneo">Espontáneo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Programador" id="Programador">
+                                    <label for="Programador">Programador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Prudente" id="Prudente">
+                                    <label for="Prudente">Prudente</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Ordenado" id="Ordenado">
+                                    <label for="Ordenado">Ordenado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Servicial" id="Servicial">
+                                    <label for="Servicial">Servicial</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Franco" id="Franco">
+                                    <label for="Franco">Franco</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Optimista" id="Optimista">
+                                    <label for="Optimista">Optimista</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Amistoso" id="Amistoso">
+                                    <label for="Amistoso">Amistoso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Fiel" id="Fiel">
+                                    <label for="Fiel">Fiel</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Divertido" id="Divertido">
+                                    <label for="Divertido">Divertido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Fuerte" id="Fuerte">
+                                    <label for="Fuerte">Fuerte</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><hr size="5px" color="black" /></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Atrevido" id="Atrevido">
+                                    <label for="Atrevido">Atrevido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Encantador" id="Encantador">
+                                    <label for="Encantador">Encantador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Diplomatico" id="Diplomatico">
+                                    <label for="Diplomatico">Diplomático</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Detallista" id="Detallista">
+                                    <label for="Detallista">Detallista</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Alegre" id="Alegre">
+                                    <label for="Alegre">Alegre</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Confidente" id="Confidente">
+                                    <label for="Confidente">Confidente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Educado" id="Educado">
+                                    <label for="Educado">Educado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Consistente" id="Consistente">
+                                    <label for="Consistente">Consistente</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Idealista" id="Idealista">
+                                    <label for="Idealista">Idealista</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Independiente" id="Independiente">
+                                    <label for="Independiente">Independiente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Inofensivo" id="Inofensivo">
+                                    <label for="Inofensivo">Inofensivo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Inspirador" id="Inspirador">
+                                    <label for="Inspirador">Inspirador</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Demostrativo" id="Demostrativo">
+                                    <label for="Demostrativo">Demostrativo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Decidido" id="Decidido">
+                                    <label for="Decidido">Decidido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Jocoso" id="Jocoso">
+                                    <label for="Jocoso">Jocoso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Meditador" id="Meditador">
+                                    <label for="Meditador">Meditador</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Mediador" id="Mediador">
+                                    <label for="Mediador">Mediador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Musical" id="Musical">
+                                    <label for="Musical">Musical</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Activo" id="Activo">
+                                    <label for="Activo">Activo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Sociable" id="Sociable">
+                                    <label for="Sociable">Sociable</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><hr size="5px" color="black" /></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Considerado3" id="Considerado3">
+                                    <label for="Considerado3">Considerado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Tenaz" id="Tenaz">
+                                    <label for="Tenaz">Tenaz</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Charlador" id="Charlador">
+                                    <label for="Charlador">Charlador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Tolerante" id="Tolerante">
+                                    <label for="Tolerante">Tolerante</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Oyente" id="Oyente">
+                                    <label for="Oyente">Buen Oyente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Leal" id="Leal">
+                                    <label for="Leal">Leal</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Lider" id="Lider">
+                                    <label for="Lider">Líder</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Alegre2" id="Alegre2">
+                                    <label for="Alegre2">Alegre</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Contento" id="Contento">
+                                    <label for="Contento">Contento</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Jefe" id="Jefe">
+                                    <label for="Jefe">Jefe</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Planeador" id="Planeador">
+                                    <label for="Planeador">Planeador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Adorable" id="Adorable">
+                                    <label for="Adorable">Adorable</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Perfeccionista" id="Perfeccionista">
+                                    <label for="Perfeccionista">Perfeccionista</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Placentero" id="Placentero">
+                                    <label for="Placentero">Placentero</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Productivo" id="Productivo">
+                                    <label for="Productivo">Productivo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Popular" id="Popular">
+                                    <label for="Popular">Popular</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Campante" id="Campante">
+                                    <label for="Campante">Campante</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Atrevido2" id="Atrevido2">
+                                    <label for="Atrevido2">Atrevido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Comportado" id="Comportado">
+                                    <label for="Comportado">Comportado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Balanceado" id="Balanceado">
+                                    <label for="Balanceado">Balanceado</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td colspan="2"><h2 class="Debilidades">Debilidades</h2></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Confuso" id="Confuso">
+                                    <label for="Confuso">Confuso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Timido" id="Timido">
+                                    <label for="Timido">Tímido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Arrogante" id="Arrogante">
+                                    <label for="Arrogante">Arrogante</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Mandon" id="Mandon">
+                                    <label for="Mandon">Mandón</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Indisciplinado" id="Indisciplinado">
+                                    <label for="Indisciplinado">Indisciplinado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Compasion" id="Compasion">
+                                    <label for="Compasion">Sin Compasion</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Entusiasmo" id="Entusiasmo">
+                                    <label for="Entusiasmo">Sin Entusiasmo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Acusador" id="Acusador">
+                                    <label for="Acusador">Acusador</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Reservado2" id="Reservado2">
+                                    <label for="Reservado2">Reservado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Resentido" id="Resentido">
+                                    <label for="Resentido">Resentido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Resistente" id="Resistente">
+                                    <label for="Resistente">Resistente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Rebelde" id="Rebelde">
+                                    <label for="Rebelde">Rebelde</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Fastidioso" id="Fastidioso">
+                                    <label for="Fastidioso">Fastidioso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Temeroso" id="Temeroso">
+                                    <label for="Temeroso">Temeroso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Olvidadizo" id="Olvidadizo">
+                                    <label for="Olvidadizo">Olvidadizo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Franco2" id="Franco2">
+                                    <label for="Franco2">Franco</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Impaciente" id="Impaciente">
+                                    <label for="Impaciente">Impaciente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Inseguro" id="Inseguro">
+                                    <label for="Inseguro">Inseguro</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Indeciso" id="Indeciso">
+                                    <label for="Indeciso">Indeciso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Interrumpe" id="Interrumpe">
+                                    <label for="Interrumpe">Interrumpe</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><hr size="5px" color="black" /></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="no_Popular" id="no_Popular">
+                                    <label for="no_Popular">No Popular</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Restringido" id="Restringido">
+                                    <label for="Restringido">Restringido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Impredecible" id="Impredecible">
+                                    <label for="Impredecible">Impredecible</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Afecto" id="Afecto">
+                                    <label for="Afecto">Sin Afecto</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Obstinado" id="Obstinado">
+                                    <label for="Obstinado">Obstinado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Arbitrario" id="Arbitrario">
+                                    <label for="Arbitrario">Arbitrario</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Contentar" id="Contentar">
+                                    <label for="Contentar">Difícil Contentar</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Vacilante" id="Vacilante">
+                                    <label for="Vacilante">Vacilante</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Simple" id="Simple">
+                                    <label for="Simple">Simple</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Pesimista" id="Pesimista">
+                                    <label for="Pesimista">Pesimista</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Orgulloso" id="Orgulloso">
+                                    <label for="Orgulloso">Orgulloso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Permisivo" id="Permisivo">
+                                    <label for="Permisivo">Permisivo</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Enojar" id="Enojar">
+                                    <label for="Enojar">Fácil de Enojar</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Metas" id="Metas">
+                                    <label for="Metas">Sin Metas</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Argumentador" id="Argumentador">
+                                    <label for="Argumentador">Argumentador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Distanciado" id="Distanciado">
+                                    <label for="Distanciado">Distanciado</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Ingenuo" id="Ingenuo">
+                                    <label for="Ingenuo">Ingenuo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Negativo" id="Negativo">
+                                    <label for="Negativo">Negativo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Nervioso" id="Nervioso">
+                                    <label for="Nervioso">Nervioso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Indiferente" id="Indiferente">
+                                    <label for="Indiferente">Indiferente</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><hr size="5px" color="black" /></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Preocupado" id="Preocupado">
+                                    <label for="Preocupado">Preocupado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Retraido" id="Retraido">
+                                    <label for="Retraido">Retraido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="AATrabajo" id="AATrabajo">
+                                    <label for="AATrabajo">Adicto Al Trabajo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Manipulador" id="Manipulador">
+                                    <label for="Manipulador">Manipulador</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Sensible2" id="Sensible2">
+                                    <label for="Sensible2">Muy Sensible</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Indiscreto" id="Indiscreto">
+                                    <label for="Indiscreto">Indiscreto</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Timido2" id="Timido2">
+                                    <label for="Timido2">Tímido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Hablador" id="Hablador">
+                                    <label for="Hablador">Hablador</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Dudoso" id="Dudoso">
+                                    <label for="Dudoso">Dudoso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Desorganizado" id="Desorganizado">
+                                    <label for="Desorganizado">Desorganizado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Dominante" id="Dominante">
+                                    <label for="Dominante">Dominante</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Deprimido" id="Deprimido">
+                                    <label for="Deprimido">Deprimido</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Inconsistente" id="Inconsistente">
+                                    <label for="Inconsistente">Inconsistente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Introvertido" id="Introvertido">
+                                    <label for="Introvertido">Introvertido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Intolerante" id="Intolerante">
+                                    <label for="Intolerante">Intolerante</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Indiferente2" id="Indiferente2">
+                                    <label for="Indiferente2">Indiferente</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Desordenado" id="Desordenado">
+                                    <label for="Desordenado">Desordenado</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Temperamental" id="Temperamental">
+                                    <label for="Temperamental">Temperamental</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Quejumbroso" id="Quejumbroso">
+                                    <label for="Quejumbroso">Quejumbroso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Manipulador2" id="Manipulador2">
+                                    <label for="Manipulador2">Manipulador</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><hr size="5px" color="black" /></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Lento" id="Lento">
+                                    <label for="Lento">Lento</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Terco" id="Terco">
+                                    <label for="Terco">Terco</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Exhibicionista" id="Exhibicionista">
+                                    <label for="Exhibicionista">Exhibicionista</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Esceptico" id="Esceptico">
+                                    <label for="Esceptico">Escéptico</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Solitario" id="Solitario">
+                                    <label for="Solitario">Solitario</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Enseñoreador" id="Enseñoreador">
+                                    <label for="Enseñoreador">Enseñoreador</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Perezoso" id="Perezoso">
+                                    <label for="Perezoso">Perezoso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Ostentoso" id="Ostentoso">
+                                    <label for="Ostentoso">Ostentoso</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Languido" id="Languido">
+                                    <label for="Languido">Lánguido</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Sospechoso" id="Sospechoso">
+                                    <label for="Sospechoso">Sospechoso</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Genio" id="Genio">
+                                    <label for="Genio">Mal Genio</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Desmemoriado" id="Desmemoriado">
+                                    <label for="Desmemoriado">Desmemoriado</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Vengativo" id="Vengativo">
+                                    <label for="Vengativo">Vengativo</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Inquieto" id="Inquieto">
+                                    <label for="Inquieto">Inquieto</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Renuente" id="Renuente">
+                                    <label for="Renuente">Renuente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Imprudente" id="Imprudente">
+                                    <label for="Imprudente">Imprudente</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Transigente" id="Transigente">
+                                    <label for="Transigente">Transigente</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Astuto" id="Astuto">
+                                    <label for="Astuto">Astuto</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Criticon" id="Criticon">
+                                    <label for="Criticon">Críticon</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Variable" id="Variable">
+                                    <label for="Variable">Variable</label>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </form>
+            </div>
+            <input type="button" class="boton" id="boton" value="Resultados">
+            <table class="Resultados">
+                <tr>
+                    <td><h2 id="TituloFortalezas"class="TablaFortalezas">Instrucciones</h2></td>
+                </tr>
+                <tr>
+                    <td class="TextoFortalezas" id="TextoFortalezas"></td>
+                </tr>
+                <tr>
+                    <td><hr size="5px" color="black" /></td>
+                </tr>
+                <tr>
+                    <td class="ResultadoFortalezas" id="Fortalezasjs">
+                        <p>Cuando hayas seleccionado una cualidad en cada fila, da click en el boton para ver los resultados</p>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="Resultados2">
+                <tr>
+                    <td><h2 id="TituloDebilidades"class="TablaDebilidades">Instrucciones</h2></td>
+                </tr>
+                <tr>
+                    <td class="TextoDebilidades" id="TextoDebilidades"></td>
+                </tr>
+                <tr>
+                    <td><hr size="5px" color="black" /></td>
+                </tr>
+                <tr>
+                    <td class="ResultadoDebilidades" id="Debilidadesjs"><p>Selecciona en cada fila una de las 4 cualidades con la que te identifiques más, si no te puedes decidir pidele ayuda a tu pareja o familia cercana</p>
+                </td>
+                </tr>
+            </table>
+        </body>
+    </html>
